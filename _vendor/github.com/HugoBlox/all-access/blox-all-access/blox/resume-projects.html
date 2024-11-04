@@ -1,0 +1,61 @@
+{{/* Hugo Blox: Projects */}}
+{{/* Documentation: https://hugoblox.com/blocks/ */}}
+{{/* License: https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md */}}
+
+{{/* Initialise */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+
+<main class="flex-auto">
+  <div class="sm:px-8 mt-16 sm:mt-32">
+    <div class="mx-auto w-full max-w-7xl lg:px-8">
+      <div class="relative px-4 sm:px-8 lg:px-12">
+        <div class="mx-auto max-w-2xl lg:max-w-5xl">
+          <div class="max-w-2xl"><h1
+            class="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+            {{ $block.content.title | markdownify | emojify }}
+          </h1>
+            <p class="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+              {{ $block.content.text | markdownify | emojify }}
+            </p></div>
+          <div class="mt-16 sm:mt-20">
+            <ul class="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3" role="list">
+              {{ range $idx, $key := $block.content.items }}
+              <li class="group relative flex flex-col items-start">
+                <div
+                  class="relative z-10 flex h-[150px] w-[150px] items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
+                  {{- $img := resources.GetMatch (path.Join "media" .image) -}}
+                  {{ with $img }}
+                  {{ $img = $img.Process "Fill 100x100 Center webp" }}
+                  <img alt="" class="h-[100px] w-[100px]" data-nimg="1" decoding="async" height="{{$img.Height}}" width="{{$img.Width}}" loading="lazy" src="{{$img.RelPermalink}}"
+                       style="color: transparent;">
+                  {{ end}}
+                </div>
+                <h2 class="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100">
+                  <div
+                    class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"></div>
+                  <a href="{{.url}}" target="_blank" rel="noopener"><span
+                    class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"></span><span
+                    class="relative z-10">{{.title}}</span></a></h2>
+                <p class="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">
+                  {{.description | markdownify }}
+                </p>
+                {{ with .url }}
+                <p
+                  class="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-primary-500 dark:text-zinc-200">
+                  {{ $u := urls.Parse . }}
+                  <span class="mr-2">{{ $u.Hostname }}</span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6 flex mt-1" aria-hidden="true" style="height: 1em">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                </svg>
+                </p>
+                {{ end }}
+              </li>
+              {{end}}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
