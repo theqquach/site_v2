@@ -166,8 +166,6 @@ awards:
       Preparing for upcoming CFA Exam.
 ---
 
-## I live in San Francisco, designing large language models at OpenAI.
-
 I am a student at the University of British Columbia where I am currently majoring in Statistics & Economics.
 
 My areas of interests include:
