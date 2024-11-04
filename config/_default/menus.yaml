@@ -7,15 +7,12 @@ main:
   - name: Bio
     url: /
     weight: 10
-  - name: Blog
-    url: post/
-    weight: 20
   - name: Experience
     url: experience/
-    weight: 30
+    weight: 20
   - name: Projects
     url: projects/
-    weight: 40
+    weight: 30
   - name: Uses
     url: uses/
-    weight: 50
+    weight: 40

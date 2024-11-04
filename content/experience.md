@@ -20,11 +20,11 @@ sections:
       is_education_first: false
   - block: resume-skills
     content:
-      title: Skills & Hobbies
+      title: Technical Skills
       username: admin
   - block: resume-awards
     content:
-      title: Awards
+      title: Awards & Certifications
       username: admin
   - block: resume-languages
     content:
