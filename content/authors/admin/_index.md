@@ -1,140 +1,148 @@
 ---
 # Display name
-title: 吳健雄
+title: Alexander (Thê) Quach
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Alexander
+last_name: Quach
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: ''
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Director of Cloud Infrastructure
+role: Financial Data Analyst
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: GenCoin
-    url: https://www.example.com/
+  - name: University of British Columbia
+    url: https://www.ubc.ca/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:theqquach@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/theqquach
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://www.linkedin.com/in/thequach/
 
+# Education
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: BSc Combined Major in Statistics and Economics
+    institution: University of British Columbia
+    date_start: 2021-09-01
+    date_end: 2026-05-31
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  
+      Currently pursuing a Bachelor of Science with a combined major in Statistics and Economics, and a minor in Data Science. My coursework includes statistical methods, economic theory, econometrics, computer science, and finance, providing a strong foundation in data analysis and its application to economic and financial decision-making.
+  - area: Master's of Management
+    institution: UBC Sauder School of Business
+    date_start: 2021-09-01
+    date_end: 2026-11-30
     summary: |
-      GPA: 3.8/4.0
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Currently pursuing a Master's of Management dual degree at UBC Sauder School of Business. The program includes foundational courses in business core fundamentals, covering areas like finance, marketing, and operations as well as graduate courses in project management, business development, and two-part negotiations.
+
+# Work Experience
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+  - position: Investor Relations Assistant
+    company_name: Solaires Entreprises Inc.
+    company_url: 'https://www.solaires.net/'
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2024-09-01
     date_end: ''
     summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
+      Responsibilities included:
+      - Supported the fundraising efforts of the company by conducting research and generating documentation prior to investor meetings.
+      - Assisted with the required documents by investors.
+      - Identified, applied, and coordinated participation in pitch events.
+      - Built connections with the climate venture capital and sustainable energy community.
+      - Supported the creation and management of company documents for the Data Room.
+      - Created pitch deck presentations and new relevant slides.
+      - Conducted research and studies relevant to investors' needs.
+
+  - position: Business Operations Analyst
+    company_name: Invartis Ltd.
+    company_url: 'https://invartis.com/'
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2024-06-13
+    date_end: 2024-08-26
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Responsibilities included:
+      - Supported the senior consultants in various teams such as the consulting team, business development, and HR department. 
+      - Identified the consultants’ key skills and created a skill-expertise matrix to evaluate potential hires. 
+      - Conducted research on 3 different RFP software to identify the best option for Invartis. Evaluated the differences to enhance efficiency.
+      - Created a skill-experience matrix to identify the team’s strengths and weaknesses to guide future recruitment and create a more well-rounded team. 
+      - Participated in workshops discussing business development.
+      - Designed a data model in preparation for an asset market analysis.
+      - Identified key points in the recruitment pipeline and creating a program to streamline the hiring process.
+      - Researched various asset managers and asset owners to better understand the market and improve the quality of Invartis' client pitches.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: ''
     items:
       - name: Python
         description: ''
         percent: 80
-        icon: code-bracket
-      - name: Data Science
+        icon: devicon/python
+      - name: RStudio
         description: ''
         percent: 100
-        icon: chart-bar
-      - name: SQL
+        icon: devicon/rstudio
+      - name: Excel
+        description: ''
+        percent: 75
+        icon: hero/table-cells
+      - name: Java
         description: ''
         percent: 40
-        icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
+        icon: devicon/java
+      - name: Julia
+        description: ''
+        percent: 50
+        icon: devicon/julia
+  - name: ''
+    color: ''
+    color_border: ''
     items:
-      - name: Hiking
+      - name: SQL
         description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
+        percent: 65
+        icon: devicon/azuresqldatabase
+      - name: Statistical Methods
         description: ''
         percent: 80
-        icon: camera
+        icon: ''
+      - name: Machine Learning
+        description: ''
+        percent: 70
+        icon: ''
+      - name: Data Analysis
+        description: ''
+        percent: 90
+        icon: ''
+      - name: Financial Analysis
+        description: ''
+        percent: 80
+        icon: ''
 
 languages:
   - name: English
     percent: 100
-  - name: Chinese
+  - name: French
     percent: 75
-  - name: Portuguese
+  - name: Chinese
     percent: 25
 
 # Awards.
@@ -142,41 +150,31 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
+  - title: Asset Management Level 3
+    url: https://www.intuition.com/
+    date: '2024-08-01'
+    awarder: Intuition KHX
+    icon: ''
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
+      Learned the Basics of the asset management career and financial industry. Gained skills in areas such as Time Value of Money, Technical Analysis, Economic Analysis, Quantitative Trading, and Risk Management. 
+  - title: CFA Level I Candidate
+    url: https://www.cfainstitute.org/
+    date: '2025-02-17'
+    awarder: CFA Institute
+    icon: ''
     summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      Preparing for upcoming CFA Exam.
 ---
 
 ## I live in San Francisco, designing large language models at OpenAI.
 
-I am a research scientist at Open AI where I am currently working on training ChatGPT v100.
+I am a student at the University of British Columbia where I am currently majoring in Statistics & Economics.
 
-My research interests include:
+My areas of interests include:
 
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Financial Economics
+- Data Science
+- Political Economy and Public Policy
+- Econometrics and Quantitative Methods
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas molestie lacus nec finibus bibendum. Nullam turpis nibh, viverra quis libero at, pharetra laoreet magna.
+I'm passionate about using a data-driven approach to explore relationships, answer questions, and provide meaningful recommendations. Although I am most experienced working with financial data, I am always excited to work with different datasets and learn about different industries and projects, as I believe in lifelong learning.
