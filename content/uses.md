@@ -1,6 +1,6 @@
 ---
 title: Uses
-date: 2023-10-24
+date: 2024-11-12
 pager: false
 ---
 
@@ -14,7 +14,6 @@ I often get asked about what software or hardware I use, so this page will serve
 
 - [Visual Studio Code](https://code.visualstudio.com/) is my current editor
 - Chrome is my main browser
-- iTerm2 is my terminal
 
 ## Desktop Apps
 
