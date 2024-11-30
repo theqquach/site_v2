@@ -19,6 +19,9 @@ sections:
           size: cover
           position: center
           parallax: false
+      biography:
+        # Customize the style of your biography text
+        style: 'text-align: justify; font-size: 0.8em;'
   - block: markdown
     content:
       title: 'About me'
