@@ -53,6 +53,7 @@ work:
       - Researched potential sponsors and connected with them
       - Collaborated with co-captains on refining UBC Rapid’s sponsorship package
 
+
   - position: Math Tutor
     company_name: CUBS Vancouver
     company_url: ''
@@ -75,6 +76,9 @@ work:
       - Led groups of junior cadets in training drills and organizes parade nights with other senior cadets and officers. Created a welcoming environment for over 70 cadets by connecting with each cadet’s interests. 
       - Prepared and taught weekly lessons about nautical skills, nautical history, and other militaryrelated topics by designing 	engaging activities to encourage active learning. 
       - Organized monthly morale-building events such as sports nights or weekend training by collaborating with other senior cadets. 
+
+
+
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
