@@ -6,46 +6,46 @@ pager: false
 
 # My Uses
 ## Hardware
-MacBook Air 8GB 13-inch (M2, 2022)
-iPad Pro (11-inch) (3rd Generation) + Apple Pencil 2
-Apple Watch Series 5
-EPOMAKER RT100 Mechanical Keyboard (Wisteria Linear Switches)
-HARPOON RGB PRO Gaming Mouse (Wired)
-Anker 2.4G Wireless Vertical Mouse
-Sony WH-1000XM5 Headphones
-AirPods (3rd Generation)
-MAONO 192kHz USB Microphone
-EMEET 1080P Webcam with Microphone
-Personal Computer:
-AMD Ryzen 5 3600X
-ASUS GeForce GTX 1050 TI 4GB
-ASRock B450M-HDV R4.0 AM4 
+MacBook Air 8GB 13-inch (M2, 2022) <br>
+iPad Pro (11-inch) (3rd Generation) + Apple Pencil 2 <br>
+Apple Watch Series 5 <br>
+EPOMAKER RT100 Mechanical Keyboard (Wisteria Linear Switches) <br>
+HARPOON RGB PRO Gaming Mouse (Wired) <br>
+Anker 2.4G Wireless Vertical Mouse <br>
+Sony WH-1000XM5 Headphones <br>
+AirPods (3rd Generation) <br>
+MAONO 192kHz USB Microphone <br>
+EMEET 1080P Webcam with Microphone <br>
+### Personal Computer: <br>
+AMD Ryzen 5 3600X <br>
+ASUS GeForce GTX 1050 TI 4GB <br>
+ASRock B450M-HDV R4.0 AM4  <br>
 
 
 ## Software
 ### Programming Languages
-Python
-Java
-R
-Julia
+Python <br>
+Java <br>
+R <br>
+Julia <br>
 
 ### Development
-Intellij
-RStudio
-VSCode
+Intellij <br>
+RStudio <br>
+VSCode <br>
 
 ### Browser & Extensions
-Arc
-Google Chrome
-Safari
+Arc <br>
+Google Chrome <br>
+Safari <br>
 
 ## Accessibility
 ### Utilities and Tools
-Apple Music
+Apple Music <br>
 
 ### Productivity
-Notion
-Notion Calendar
-Things 3
-Slack
+Notion <br>
+Notion Calendar <br>
+Things 3 <br>
+Slack <br>
 
