@@ -1,0 +1,68 @@
+# SITE SETUP
+# Guide: https://docs.hugoblox.com/tutorial/
+# Documentation: https://docs.hugoblox.com/
+# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+
+# Appearance
+appearance:
+  mode: light
+  color: indigo
+
+# SEO
+marketing:
+  seo:
+    site_type: Organization
+    local_business_type: ''
+    org_name: ''
+    description: 'A highly-customizable Hugo conference theme powered by Hugo Blox website builder.'
+    twitter: 'GetResearchDev'
+  analytics:
+    google_analytics: ''
+    baidu_tongji: ''
+    plausible: ''
+    fathom: ''
+    pirsch: ''
+  verification:
+    google: ''
+    baidu: ''
+
+# Site header
+header:
+  navbar:
+    enable: true
+    blox: "navbar"
+    align: "center"
+    fixed_to_top: false
+    logo:
+      text: ""
+      # Logo filename in `assets/media/` folder
+      filename: "logo.svg"
+    button:
+      enable: true
+      text: "Get Tickets"
+      url: "https://www.eventbrite.com/"
+    show_search: false
+    show_theme_chooser: false
+
+# Site footer
+footer:
+  blox: "sitemap"
+  content:
+    logo:
+      text: "AI SUMMIT 2024"
+    tagline: "BUILD THE FUTURE TOGETHER WITH AI"
+  design:
+    columns: 4
+  copyright:
+    notice: '© {year} My Company'
+
+# Localization
+locale:
+  date_format: 'Jan 2, 2006'
+  time_format: '3:04 PM'
+
+# Extensions
+extensions:
+  convertkit:
+    # To use the ConvertKit Newsletter blox, provide your public API Key from your ConvertKit account settings page
+    api_key: ""

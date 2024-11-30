@@ -1,0 +1,44 @@
+# Navigation Links
+#   To link a page section, specify the URL as a hash `/#` followed by the `id` of the section.
+#   The `weight` parameter defines the order that the links will appear in.
+# Docs: https://gohugo.io/content-management/menus/#define-in-site-configuration
+
+main:
+  - name: Home
+    url: /#top
+    weight: 10
+  - name: About
+    url: /#about
+    weight: 20
+  - name: Speakers
+    url: /#speakers
+    weight: 30
+  - name: Agenda
+    url: /#agenda
+
+footer:
+  - identifier: home
+    name: Home
+    weight: 1
+  - parent: home
+    name: Home
+    url: /
+    weight: 1
+  - identifier: tickets
+    name: Tickets
+    weight: 2
+  - parent: tickets
+    name: Get Tickets
+    url: https://www.eventbrite.com/
+    weight: 3
+  - identifier: legal
+    name: Legal
+    weight: 3
+  - parent: legal
+    name: Privacy
+    url: /privacy
+    weight: 1
+  - parent: legal
+    name: Terms
+    url: /terms
+    weight: 2
