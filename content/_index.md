@@ -12,12 +12,13 @@ sections:
     design:
       background:
         # Upload your cover image to the `assets/media/` folder and reference it here
-        filename: background.jpg
-        filters:
-          brightness: 0.4
-        size: cover
-        position: center
-        parallax: false
+        image:
+          filename: background.jpg
+          filters:
+            brightness: 0.4
+          size: cover
+          position: center
+          parallax: false
       biography:
         # Customize the style of your biography text
         style: 'text-align: justify; font-size: 0.8em;'
