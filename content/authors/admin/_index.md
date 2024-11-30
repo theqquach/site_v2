@@ -42,14 +42,13 @@ education:
     date_start: 2021-09-01
     date_end: 2026-05-31
     summary: |
-  
       Currently pursuing a Bachelor of Science with a combined major in Statistics and Economics, and a minor in Data Science. My coursework includes statistical methods, economic theory, econometrics, computer science, and finance, providing a strong foundation in data analysis and its application to economic and financial decision-making.
+
   - area: Master's of Management
     institution: UBC Sauder School of Business
     date_start: 2021-09-01
     date_end: 2026-11-30
     summary: |
-
       Currently pursuing a Master's of Management dual degree at UBC Sauder School of Business. The program includes foundational courses in business core fundamentals, covering areas like finance, marketing, and operations as well as graduate courses in project management, business development, and two-part negotiations.
 
 # Work Experience
