@@ -10,12 +10,35 @@ sections:
       username: admin
       # Show a call-to-action button under your biography? (optional)
     design:
-      banner:
+      background:
         # Upload your cover image to the `assets/media/` folder and reference it here
         filename: background.jpg
+        filters:
+          brightness: 0.4
+        size: cover
+        position: center
+        parallax: false
       biography:
         # Customize the style of your biography text
         style: 'text-align: justify; font-size: 0.8em;'
+  - block: markdown
+    content:
+      title: 'About me'
+      subtitle: ''
+      text: |-
+        I am a student at the University of British Columbia where I am currently majoring in Statistics & Economics.
+
+        My areas of interests include:
+
+        - Financial Economics
+        - Data Science
+        - Political Economy and Public Policy
+        - Environmental Economics and Sustainability
+        - Econometrics and Quantitative Methods
+
+       I'm passionate about using a data-driven approach to explore relationships, answer questions, and provide meaningful recommendations. Although I am most experienced working with financial data, I am always excited to work with different datasets and learn about different industries and projects, as I believe in lifelong learning.
+    design:
+      columns: '1'
   - block: cta-button-list
     content:
       # Need a custom icon?
