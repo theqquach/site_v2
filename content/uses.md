@@ -4,7 +4,6 @@ date: 2024-11-12
 pager: false
 ---
 
-# My Uses
 ## Hardware
 MacBook Air 8GB 13-inch (M2, 2022) <br>
 iPad Pro (11-inch) (3rd Generation) + Apple Pencil 2 <br>
