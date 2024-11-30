@@ -19,18 +19,17 @@ sections:
   - block: markdown
     content:
 
-    I am a student at the University of British Columbia where I am currently majoring in Statistics & Economics.
+      I am a student at the University of British Columbia where I am currently majoring in Statistics & Economics.
 
-    My areas of interests include:
+      My areas of interests include:
 
-    - Financial Economics
-    - Data Science
-    - Political Economy and Public Policy
-    - Environmental Economics and Sustainability
-    - Econometrics and Quantitative Methods
+      - Financial Economics
+      - Data Science
+      - Political Economy and Public Policy
+      - Environmental Economics and Sustainability
+      - Econometrics and Quantitative Methods
 
-    I'm passionate about using a data-driven approach to explore relationships, answer questions, and provide meaningful recommendations. Although I am most experienced working with financial data, I am always excited to work with different datasets and learn about different industries and projects, as I believe in lifelong learning.
-
+      I'm passionate about using a data-driven approach to explore relationships, answer questions, and provide meaningful recommendations. Although I am most experienced working with financial data, I am always excited to work with different datasets and learn about different industries and projects, as I believe in lifelong learning.
   - block: cta-button-list
     content:
       # Need a custom icon?
