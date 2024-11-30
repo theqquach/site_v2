@@ -5,26 +5,27 @@ type: landing
 
 design:
   # Section spacing
-  spacing: '5rem'
+  spacing: '1rem'
 
 # Page sections
 sections:
   - block: resume-projects
     content:
       title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      text: ''
       # Upload project images to your `assets/media/` folder and reference the filename in the `image` option
       items:
-        - title: Pandas
-          description: Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.
-          image: panda.png
-          url: https://github.com/pandas-dev/pandas
-        - title: scikit-learn
-          description: scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.
-          image: robot.png
+        - title: Eye Classification Using Computer Vision
+          description: Binary Classification model created using PyTorch. The goal was to train the model to correctly identify images of diseased eyes.
+          image: pytorch.png
+          url: https://github.com/theqquach/eye-disease-classification
+        - title: Food Emissions Data Analysis Project
+          description: An exploratory data analysis project to determine the relationship between greenhouse gas emissions, food production, and food consumption.
+          image: foodprojecticon.png
           url: https://github.com/scikit-learn/scikit-learn
-        - title: PyTorch
-          description: PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.
-          image: nlp.png
-          url: https://github.com/pytorch/pytorch
+        - title: SmartMuse Program
+          description: A music library application built using Java.
+          image: javaprojecticon.png
+          url: https://github.com/theqquach/SmartMuseMusicLibraryProject
+---
 ---
