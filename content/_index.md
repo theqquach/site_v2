@@ -5,7 +5,7 @@ type: landing
 
 # Page sections
 sections:
-  - block: resume-biography-2
+  - block: resume-biography
     content:
       username: admin
       # Show a call-to-action button under your biography? (optional)
