@@ -8,7 +8,7 @@ sections:
   - block: resume-biography
     content:
       username: admin
-      text: 
+      text: 'hello!'
     design:
       css_class: dark
       backround:
