@@ -20,7 +20,7 @@ sections:
       is_education_first: false
   - block: resume-experience-volunteer
     content:
-      username: admin
+      username: admin_volunteering
     design:
       # Hugo date format
       date_format: 'January 2006'
